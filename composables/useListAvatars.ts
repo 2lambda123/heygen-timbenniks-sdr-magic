@@ -25,7 +25,7 @@ export function useListAvatars() {
       })
     });
 
-    return result
+    return result.reverse()
   }
 
   fetch("https://api.heygen.com/v1/avatar.list", {

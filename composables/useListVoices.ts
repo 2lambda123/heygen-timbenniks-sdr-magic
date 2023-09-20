@@ -28,7 +28,7 @@ export function useListVoices() {
       })
     });
 
-    return result.filter(voice => voice.language === "English")
+    return result.filter(voice => voice.language === "English").reverse()
   }
 
   fetch("https://api.heygen.com/v1/voice.list", {
