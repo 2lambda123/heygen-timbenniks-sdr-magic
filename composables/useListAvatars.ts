@@ -1,5 +1,6 @@
 export function useListAvatars() {
   const runtimeConfig = useRuntimeConfig()
+  const { ref } = require('vue');
   const data = ref(null);
   const error = ref(null);
   type AvatarLite = {
@@ -28,6 +29,7 @@ export function useListAvatars() {
     return result.reverse()
   }
 
+  const fetch = require('node-fetch');
   fetch("https://api.heygen.com/v1/avatar.list", {
     headers: {
       accept: 'application/json',
