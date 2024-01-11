@@ -45,15 +45,21 @@ Build the application for production:
 
 ```bash
 # npm
-npm run build
+npm run build-prod
 
 # pnpm
+# To build the application for production using pnpm, run the following command:
+# pnpm run build
 pnpm run build
 
 # yarn
+# To build the application for production using yarn, run the following command:
+# yarn build
 yarn build
 
 # bun
+# To build the application for production using bun, run the following command:
+# bun run build
 bun run build
 ```
 
