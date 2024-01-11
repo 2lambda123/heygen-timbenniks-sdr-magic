@@ -70,13 +70,13 @@ Locally preview production build:
 npm run serve
 
 # pnpm
-pnpm run preview
+pnpm build
 
 # yarn
-yarn preview
+yarn build
 
 # bun
-bun run preview
+bun run build
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
