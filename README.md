@@ -8,13 +8,13 @@ Make sure to install the dependencies:
 
 ```bash
 # npm
-npm install
+npm ci
 
 # pnpm
-pnpm install
+pnpm install --frozen-lockfile
 
 # yarn
-yarn install
+yarn install --frozen-lockfile
 
 # bun
 bun install
