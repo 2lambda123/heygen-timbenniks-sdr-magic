@@ -67,7 +67,7 @@ Locally preview production build:
 
 ```bash
 # npm
-npm run preview
+npm run serve
 
 # pnpm
 pnpm run preview
