@@ -8,13 +8,13 @@ Make sure to install the dependencies:
 
 ```bash
 # npm
-npm install
+npm ci
 
 # pnpm
-pnpm install
+pnpm install --frozen-lockfile
 
 # yarn
-yarn install
+yarn install --frozen-lockfile
 
 # bun
 bun install
@@ -70,13 +70,13 @@ Locally preview production build:
 npm run serve
 
 # pnpm
-pnpm run preview
+pnpm build
 
 # yarn
-yarn preview
+yarn build
 
 # bun
-bun run preview
+bun run build
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
