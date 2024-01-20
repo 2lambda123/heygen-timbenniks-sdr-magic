@@ -8,13 +8,13 @@ Make sure to install the dependencies:
 
 ```bash
 # npm
-npm install
+npm ci
 
 # pnpm
-pnpm install
+pnpm install --frozen-lockfile
 
 # yarn
-yarn install
+yarn install --frozen-lockfile
 
 # bun
 bun install
@@ -26,7 +26,8 @@ Start the development server on `http://localhost:3000`:
 
 ```bash
 # npm
-npm run dev
+npm run start
+npm run start
 
 # pnpm
 pnpm run dev
@@ -44,15 +45,21 @@ Build the application for production:
 
 ```bash
 # npm
-npm run build
+npm run build-prod
 
 # pnpm
+# To build the application for production using pnpm, run the following command:
+# pnpm run build
 pnpm run build
 
 # yarn
+# To build the application for production using yarn, run the following command:
+# yarn build
 yarn build
 
 # bun
+# To build the application for production using bun, run the following command:
+# bun run build
 bun run build
 ```
 
@@ -60,16 +67,16 @@ Locally preview production build:
 
 ```bash
 # npm
-npm run preview
+npm run serve
 
 # pnpm
-pnpm run preview
+pnpm build
 
 # yarn
-yarn preview
+yarn build
 
 # bun
-bun run preview
+bun run build
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
